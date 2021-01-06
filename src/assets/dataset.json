@@ -1,0 +1,122 @@
+{
+    "init": {
+        "answers": [
+            {
+                "content": "仕事を依頼したい",
+                "nextId": "job_offer"
+            },
+            {
+                "content": "エンジニアのキャリアについて相談したい",
+                "nextId": "consultant"
+            },
+            {
+                "content": "一緒に焼肉に行きたい🍖",
+                "nextId": "meat"
+            }
+        ],
+        "question": "こんにちは！ご用件はなんでしょうか？"
+    },
+    "job_offer": {
+        "answers": [
+            {
+                "content": "Webサイトを制作してほしい",
+                "nextId": "website"
+            },
+            {
+                "content": "Webアプリを開発してほしい",
+                "nextId": "webapp"
+            },
+            {
+                "content": "自動化ツールを作ってほしい",
+                "nextId": "automation_tool"
+            },
+            {
+                "content": "その他",
+                "nextId": "other_jobs"
+            }
+        ],
+        "question": "どのようなお仕事でしょうか？"
+    },
+    "website": {
+        "answers": [
+            {
+                "content": "問い合わせる",
+                "nextId": "contact"
+            },
+            {
+                "content": "最初の質問に戻る",
+                "nextId": "init"
+            }
+        ],
+        "question": "Webサイト制作についてですね。コチラからお問い合わせできます。"
+    },
+    "webapp": {
+        "answers": [
+            {
+                "content": "問い合わせる",
+                "nextId": "contact"
+            },
+            {
+                "content": "最初の質問に戻る",
+                "nextId": "init"
+            }
+        ],
+        "question": "Webアプリ開発についてですね。コチラからお問い合わせできます。"
+    },
+    "automation_tool": {
+        "answers": [
+            {
+                "content": "問い合わせる",
+                "nextId": "contact"
+            },
+            {
+                "content": "最初の質問に戻る",
+                "nextId": "init"
+            }
+        ],
+        "question": "自動化ツール開発についてですね。コチラからお問い合わせできます。"
+    },
+    "other_jobs": {
+        "answers": [
+            {
+                "content": "問い合わせる",
+                "nextId": "contact"
+            },
+            {
+                "content": "最初の質問に戻る",
+                "nextId": "init"
+            }
+        ],
+        "question": "その他についてですね。コチラからお問い合わせできます。"
+    },
+    "consultant": {
+        "answers": [
+            {
+                "content": "Qiitaを見る",
+                "nextId": "https://www.youtube.com/channel/UC-bOAxx-YOsviSmqh8COR0w"
+            },
+            {
+                "content": "直接依頼する",
+                "nextId": "https://qiita.com/ntm718"
+            },
+            {
+                "content": "最初の質問に戻る",
+                "nextId": "init"
+            }
+        ],
+        "question": "トラハックは普段からYouTubeでキャリアについて発信しています。また、僕が運営するエンジニア向け学習コミュニティ内でも相談に乗っていますよ。"
+    },
+    "meat": {
+        "answers": [
+            {
+                "content": "DMする",
+                "nextId": "https://twitter.com/natsume_aurlia"
+            },
+            {
+                "content": "最初の質問に戻る",
+                "nextId": "init"
+            }
+        ],
+        "question": "ぜひ行きましょう！Twitter(@natsume_aurlia)にDMください！"
+    }
+}
