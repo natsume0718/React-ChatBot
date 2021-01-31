@@ -13,6 +13,8 @@ export default class App extends React.Component {
     };
   }
   render() {
-    return <div></div>;
+    return <section className="c-section">
+      <div className="c-box"></div>
+    </section>;
   }
 }
